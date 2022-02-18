@@ -1,0 +1,200 @@
+
+/* Format des paragraphes */
+body {
+	background-color: Pink;
+
+	font-family: Roboto, serif;
+	font-size:18px;
+	font-weight: 300
+	line-height: 1;
+	letter-spacing: 0px;
+	color:black;
+
+}
+
+div	{
+	border: 0px solid black;
+}
+
+h1 {
+	color:white;
+	font-size:30px;
+	font-weight: bold;
+	background-color: purple;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+}
+
+/* Format des liens */
+a {
+	color:purple;
+}
+
+a:hover {
+	color:green;
+	font-weight: bold;
+	transition: color 1.0s ease;
+}
+
+p {
+	font-size:16px;
+	line-height: 1.2;
+}
+
+
+/* Class */
+
+.container {
+	width:900px;
+	margin: 40px auto;
+	vertical-align: center;
+}
+.photo250 {
+
+	border-radius: 5px;
+	width: 250px;
+}
+
+.photo250cliquable {
+
+	border-radius: 5px;
+	width: 250px;
+	border: 2px solid white;
+}
+
+.photo250cliquable:hover {
+
+	border: 2px solid purple;
+}
+
+
+
+.shadowed {
+	box-shadow: 5px 5px 3px rgba(0,0,0,0.9);
+}
+
+
+
+.card-white {
+
+	background: white;
+	background-color: white;
+
+	padding: 10px 10px;
+	margin: 10px 10px;
+
+	border: 2px solid purple;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+
+	text-align:center;
+}
+
+.card-white-inline div {
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+
+.button-blue{
+	background-color: pink;
+	color: purple;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.button-blue:hover{
+	background-color: purple;
+	color:pink;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left:0px;
+	text-align: center;
+}
+
+.list-inline li {
+	display: inline;
+	padding:10px;
+}
+
+.list-inline i {
+	font-size:67px;
+	color: rgb(56,118,117);
+}
+
+.list-inline i:hover {
+	font-size:67px;
+	color: purple;
+}
+
+/* Id */
+
+#Background-Photo {
+	background-image: url(images/Bubu.jpg);
+	background-size: cover;
+}
+
+#ieseg {
+	border-radius: 5px;
+	width: 100px;
+}
+
+#Logo-60px {
+	width: 60px;
+}
+
+
+
+/* Responsible Design */
+ @media (max-width : 960px) {
+	.container {
+	 	width:700px;
+	}
+	.photo250 {
+		width: 200px;
+	}
+	.list-inline i {
+		font-size:60px;
+	}
+	#Logo-60px {
+		width: 58px;
+	}
+}
+@media (max-width : 720px) {
+	.container {
+	 	width:520px;
+	}
+	.photo250 {
+		width: 150px;
+	}
+	.list-inline i {
+		font-size:55px;
+	}
+	#Logo-60px {
+		width: 53px;
+	}
+}
+@media (max-width : 540px) {
+	.container {
+	 	width:350px;
+	}
+	.photo250 {
+		width: 100px;
+	}
+	.list-inline i {
+		font-size:50px;
+	}
+	#Logo-60px {
+		width: 46px;
+	}
+}
+
+
+
